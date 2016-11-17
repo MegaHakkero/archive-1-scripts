@@ -23,4 +23,4 @@ The script that converts the information from the database into coherent, readab
 ./convert_readable.py <database> <outfile>
 ```
 
-where ```<database>``` is the database to be parsed and ```<outfile>``` is the output file for the processed info. Note that ```<outfile>``` can't exist as a directory nor a file, otherwise the script will exit without doing anything.
+where ```<database>``` is the database to be parsed and ```<outfile>``` is the output file for the processed info. Note that ```<outfile>``` can't exist as a directory nor a file, otherwise the script will exit without doing anything. NOTE: the converter doesn't completely work as of yet; time and package information are written as normal, but the location data doesn't appear. Kudos to Google's geolocation API for that.
